@@ -1,0 +1,227 @@
+
+.xyz{
+    color: #e67300;
+    color: #a6a6fb;
+    color: #ffcc00;
+    color: #ffe6cc;
+ }
+body{
+padding: 0;
+margin: 0;
+background-color: rgb(246, 220, 224);
+}
+.navbar{
+background-color: #e6e200; 
+padding: 11px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.navbar-icon{
+height: 51px;
+}
+.navbar-brand-name{
+font-size: 30px;
+color: #f2e5e5;
+font-weight: bold;
+margin-left: 10px;
+}
+.navbar-menu{
+font-size: 20px;
+padding: 5px 20px;
+font-weight: bold;
+margin-left: 10px;
+cursor: pointer;
+background-color: #ffe6cc;
+border-radius: 20px;
+}
+.navbar-menu:hover{
+background-color: #ffcc00;
+box-shadow:0px 0px 5px 2px #fff;
+padding: 7px 25px;
+transition: 0.6s;
+}
+.navbar-menu-container{
+margin-left: 180px; 
+}
+.header-container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.shop-img{
+width: 400px;
+margin: 30px;
+}
+.header-title{
+font-size: 50px;
+color: #e67300;
+}
+.header-description{
+font-size: 30px;
+color: black;
+}
+.header-explore-btn{
+font-size: 30px; 
+font-weight: bold;
+background-color: #e67300;
+color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
+border: none;
+margin-top: 20px;
+cursor: pointer;
+}
+.our-feature-heading{
+font-size: 50px;
+color: #e67300;
+text-align: center;
+margin-top: 50px;
+}
+.feature-card{
+width: 300px;  
+padding: 10px;
+margin: 10px;
+border-radius: 15px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+background-color: white;
+position: relative;
+}
+.ico-feature{
+font-size: 50px;
+position: absolute;
+top: -45px;
+left: 120px;
+background-color: white;
+border: 1px solid#e67300;
+border-radius: 10px;
+color: #e67300;
+width: 80px;
+height: 60px;
+padding: 5px;
+text-align: center;
+}
+.feature-title{
+font-size: 22px;
+text-align: center;
+color: #e67300;
+}
+.feature-description{
+
+text-align: center;
+
+}
+.feature-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 50px;
+}
+.our-cakes-heading{
+text-align: center;
+font-size: 50px;
+color: #e67300;
+margin: 50px;
+}
+.cake-card{
+background-color: white;
+width: 300px;
+padding: 40px 20px;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.cake-card-image{
+height: 150px;
+display: block;
+margin: 5px auto;
+filter:drop-shadow(0px 0px 10px #ffcc00);
+}
+.cake-card-title{
+text-align: center;
+color: #e67300;
+font-size: 25px;
+}
+.cake-card-price{
+text-align: center;
+color: #e67300;
+font-size: 22px;
+}
+.order-now-btn{
+background-color: #f57c04;
+color: #f0e4e4;
+font-size: 18px;
+font-weight: bold;
+padding: 5px 50px;
+border-radius: 30px;
+border: none;
+margin-top: 20px;
+cursor: pointer;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.cakes-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 50px;  
+}
+@media only screen  and (max-width:600px){
+
+.navbar-menu-container{
+margin-left: auto; 
+margin-right: auto;
+}
+.navbar{
+flex-direction: column; 
+}
+.navbar-menu{
+display: block;
+margin: 10px;
+width: 100%;
+text-align: center;
+}
+.shop-img{
+width: 250px;
+}
+.header-title{
+font-size: 30px;
+}
+.header-description{
+font-size: 20px;
+}
+.header-explore-btn{
+font-size: 15px; 
+display: block;
+margin-left: auto;
+margin-right: auto;  
+}
+.feature-card{
+margin-top: 80px;
+}
+}
+@media only screen and(min-width: 601px) and (max-width: 768px){
+
+.navbar-menu-container{
+margin-left: auto; 
+margin-right: auto;
+margin-top: 20px;
+}
+.header-explore-btn{
+font-size: 25px; 
+display: block;
+margin-left: auto;
+margin-right: auto;  
+}
+.feature-card{
+margin-top: 80px;
+}
+}
+@media only screen and (min-width :769px)and(min-width :1400px){
+.feature-card{
+margin-top: 100px;
+}
+}
